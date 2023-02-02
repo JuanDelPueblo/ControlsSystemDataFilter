@@ -1,0 +1,5 @@
+geometry_msgs/Vector3 angular_velocity
+geometry_msgs/Quaternion orientation
+geometry_msgs/Vector3 velocity
+geometry_msgs/Point position
+float64 fluid_pressure
