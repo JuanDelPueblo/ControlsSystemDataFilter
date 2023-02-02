@@ -1,0 +1,11 @@
+<launch>
+    <include file="$(find uuv_gazebo_worlds)/launch/ocean_waves.launch"/>
+    <include file="$(find rexrov2_description)/launch/upload_rexrov2.launch"/>
+
+    <remap to="/rexrov2/imu" from="/cs/imu"/>
+    <remap to="/rexrov2/dvl" from="/cs/dvl"/>
+    <remap to="/rexrov2/pressure" from="/cs/pressure"/>
+
+    <rosparam file="$(find controls_system)/config/cs.yaml"/>
+    <node name="controls_system_node" pkg="controls_system" type="controls_system_node.py" output="screen"/>
+</launch>

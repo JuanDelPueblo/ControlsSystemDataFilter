@@ -1,0 +1,9 @@
+# Config file for Controls System Data Filter
+CS_NODE_NAME: 'controls_system_node'
+CS_TOPIC_NAME: 'controls_system_topic'
+
+CS_BEAM_INDEX: 0
+
+# Publisher parameters
+CS_PUB_INTERVAL: 0.5 # in seconds
+CS_QUEUE_SIZE: 1
