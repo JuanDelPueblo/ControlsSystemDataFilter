@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>controls_system</name>
-  <version>0.0.0</version>
-  <description>The controls_system package</description>
+  <name>controls_system_data_filter</name>
+  <version>1.0.0</version>
+  <description>Merges the velocity, orientation, position, and pressure data
+    from the IMU, DVL, and pressure sensor into a buffer message that is then 
+    published at a continuous rate.</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

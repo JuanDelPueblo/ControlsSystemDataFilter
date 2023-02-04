@@ -6,6 +6,6 @@
     <remap to="/rexrov2/dvl" from="/cs/dvl"/>
     <remap to="/rexrov2/pressure" from="/cs/pressure"/>
 
-    <rosparam file="$(find controls_system)/config/cs.yaml"/>
-    <node name="controls_system_node" pkg="controls_system" type="controls_system_node.py" output="screen"/>
+    <rosparam file="$(find controls_system_data_filter)/config/cs.yaml"/>
+    <node name="controls_system_node" pkg="controls_system_data_filter" type="controls_system_node.py" output="screen"/>
 </launch>

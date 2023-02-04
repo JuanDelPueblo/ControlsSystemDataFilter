@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(controls_system)
+project(controls_system_data_filter)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -105,7 +105,7 @@ generate_messages(
 catkin_package(
   CATKIN_DEPENDS message_runtime
 #  INCLUDE_DIRS include
-#  LIBRARIES controls_system
+#  LIBRARIES controls_system_data_filter
 #  DEPENDS system_lib
 )
 
@@ -122,7 +122,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/controls_system.cpp
+#   src/${PROJECT_NAME}/controls_system_data_filter.cpp
 # )
 
 ## Add cmake target dependencies of the library
