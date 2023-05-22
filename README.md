@@ -1,4 +1,7 @@
 # Controls System Data Filter
+
+![image](https://github.com/JuanDelPueblo/ControlsSystemDataFilter/assets/49998039/66377ef6-fd11-4c4c-be4c-89fa7e9651ca)
+
 Merges the velocity, orientation, position, and pressure data from the IMU, DVL, and pressure sensor into a buffer message that is then published at a continuous rate.
 
 Tested on Ubuntu 18.04.6 LTS with ROS Melodic Morenia, and depends on the [uuv_simulator](https://github.com/uuvsimulator/uuv_simulator) and [rexrov2](https://github.com/uuvsimulator/rexrov2) packages
